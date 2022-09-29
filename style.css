@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desktop{
+    background-image: url(./images/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    
+    width: 1200px;
+    height: 85vh;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.content p{
+    font-family: 'Inter', sans-serif;
+}
+.content span{
+    font-family: 'Inter', sans-serif; 
+}
+.content h5,h2,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.left{
+    width: 7%;
+    background-color: gray;
+    opacity: 0.9;
+}
+.icons{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    line-height: 80px;
+}
+.icons i{
+    font-size: 25px;
+}
+.icolor{
+    color: white;
+}
+
+.center{
+    background-color: #5e5c5c;
+    opacity: 0.9;
+    width: 80%;
+    position: relative;
+
+}
+.meet{
+    color: #afc6ff;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.leftpart h5{
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.date{
+   color: white;
+    opacity: 0.9;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.lorem{
+    color: white;
+    opacity: 0.9;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.leftpart button{
+    color: white;
+    background-color: #5e5c5c;
+    opacity: 0.8;
+    font-size: 9px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: none;
+    font-weight: bold;
+    
+}
+.rightpart h2{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 410px;
+}
+.rightpart h6{
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 410px;
+    opacity: 0.8;
+}
+.line p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 170px;
+    left: 440px;
+    opacity: 0.9;
+}
+.line p span{
+    color: #afc6ff;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.virat{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.teams{
+    display: flex;
+    flex-direction: row;
+}
+.groups{
+    width: 70%;
+    height: 315px;
+    margin-top: 20px;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.8;
+}
+.head{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.head label{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.line img{
+    position: absolute;
+    left: 410px;
+    top: 165px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 19px;
+    width: 580px;
+    height: 270px;    
+}
+.department{
+    height: 135px;
+    width: 210px;
+    padding-top: 20px;
+    text-align: center;
+
+    
+}
+.department h5{
+    color: white;
+    margin-top: 5px;
+}
+.department p{
+    color: #afc6ff;
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+.departmenthead{
+    height: 135px;
+    width: 210px;
+    padding-top: 20px;
+    text-align: center;
+    border-left: 0.2px solid rgb(88, 87, 87);
+
+}
+.departmenthead h5{
+    color: white;
+    margin-top: 5px;
+}
+.departmenthead p{
+    color: #afc6ff;
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+.departmentpro{
+    height: 135px;
+    width: 210px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 0.5px solid rgb(88, 87, 87);
+    border-left: 0.5px solid rgb(88, 87, 87);
+    background-image: linear-gradient(to right bottom, rgb(66, 65, 65),rgb(15, 15, 15));
+
+}
+.departmentpro h5{
+    color: white;
+    margin-top: 5px;
+}
+.departmentpro p{
+    color: #afc6ff;
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+.departmentdata{
+    height: 135px;
+    width: 210px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 0.1px solid rgb(88, 87, 87);
+}
+.departmentdata h5{
+    color: white;
+    margin-top: 5px;
+}
+.departmentdata p{
+    color: #afc6ff;
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+
+.develop{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 80px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, rgb(16, 155, 16), rgb(138, 228, 138));
+}
+.marketing{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 80px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, blue,violet 70%);
+}
+.headset{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, #6e4afc,#08e4d2);
+}
+.security{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, #ff4b40,#ffe419);
+}
+.data{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, #5bdf06,#06baf3);
+}
+.product{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, #1671e2,#08e4d2);
+}
+.product1{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 115px;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, #1671e2,#08e4d2); 
+}
+.designteam{
+   background-color: rgb(31, 30, 30);
+  opacity: 1;
+   height: 280px;
+   margin-top: 55px;
+   text-align: center;
+   color: white;
+   width: 280px;
+   position: relative;
+   border-left: 0.1px solid rgb(37, 37, 37);
+}
+.designteam span{
+    font-size: 10px;
+    color: #afc6ff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.designteam h5{
+    margin-top: 10px;
+}
+.designteam p{
+    font-size: 10px;
+    margin-top: 5px;
+
+}
+.e1{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+.e2{
+    position: absolute;
+    top: 150px;
+    left: 90px;
+}
+.e3{
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+.e4{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+.e5{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.designteam button{
+    position: absolute;
+    left: 65px;
+    bottom: 40px;
+    font-size: 10px;
+    background-color: #5b5fc7;
+    border-color: #5b5fc7;
+    border-radius: 15px;
+    color: white;
+    height: 30px;
+    width: 135px;
+    opacity: 1;
+}
+.right{
+    width: 18%;
+    background-color: gray;
+    opacity: 0.9;
+    
+}
+
+
+.h{
+    margin-top: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.gridarea{
+  width: 210px;
+  height: 124px;
+  color: white;
+  padding-top: 10px;
+}
+.gridarea1{
+  width: 210px;
+  height: 124px;
+  background-image: linear-gradient(150deg,white,gray);
+  opacity: 0.9;
+  padding-top: 10px;
+  border: 1px solid gray;
+}
+.gridarea1 p{
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.gridarea1 h5{
+    color: white;
+}
+.hd{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 85px;
+    margin-top: 10px;
+    background-color: #f49c90;  
+    padding-top: 12px;
+    font-size: 12px;
+    font-weight: bold;      
+}
+.cl{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 85px;
+    padding-top: 12px;  
+    background-color: #5b5fc7; 
+    font-size: 12px;
+    font-weight: bold;  
+}
+.gridarea h5{
+    margin-top: 10px;
+}
+.gridarea p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.footer{
+    height: 40px;
+    background-color: gray;
+    opacity: 0.9;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.you{
+    margin-left: 500px;
+}
+.team{
+    width: 50px;
+    height: 40px;
+    border-right: 0.5px solid rgb(155, 153, 153) ;
+    border-left: 0.5px solid rgb(155, 153, 153);
+    background-image: linear-gradient(150deg,white,gray);    
+}
+.footer p{
+    font-size: 10px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.pro{
+    margin-left: 20px;
+    margin-top: 5px
+}
