@@ -13,8 +13,7 @@
     position: relative;
     overflow: hidden;
 }
-.content{
-    
+.content{    
     width: 87.75%;
     height: 85vh;
     position: absolute;
@@ -49,7 +48,6 @@
 .icolor{
     color: white;
 }
-
 .center{
     background-color: #5e5c5c;
     opacity: 0.9;
@@ -131,8 +129,7 @@
 }
 .groups{
     width: 70%;
-    height: 315px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: rgb(31, 30, 30);
     opacity: 0.8;
 }
@@ -158,17 +155,11 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 19px;
-    width: 580px;
-    height: 270px;    
+    margin-top: 19px; 
 }
 .department{
-    height: 135px;
-    width: 210px;
     padding-top: 20px;
-    text-align: center;
-
-    
+    text-align: center;    
 }
 .department h5{
     color: white;
@@ -178,15 +169,12 @@
     color: #afc6ff;
     font-size: 12px;
     margin-top: 3px;
-
 }
 .departmenthead{
-    height: 135px;
-    width: 210px;
+    padding-bottom: 30px;
     padding-top: 20px;
     text-align: center;
     border-left: 0.2px solid rgb(88, 87, 87);
-
 }
 .departmenthead h5{
     color: white;
@@ -196,17 +184,13 @@
     color: #afc6ff;
     font-size: 12px;
     margin-top: 3px;
-
 }
 .departmentpro{
-    height: 135px;
-    width: 210px;
     padding-top: 20px;
     text-align: center;
     border-top: 0.5px solid rgb(88, 87, 87);
     border-left: 0.5px solid rgb(88, 87, 87);
     background-image: linear-gradient(to right bottom, rgb(66, 65, 65),rgb(15, 15, 15));
-
 }
 .departmentpro h5{
     color: white;
@@ -219,8 +203,7 @@
 
 }
 .departmentdata{
-    height: 135px;
-    width: 210px;
+    padding-bottom: 30px;
     padding-top: 20px;
     text-align: center;
     border-top: 0.1px solid rgb(88, 87, 87);
@@ -233,9 +216,7 @@
     color: #afc6ff;
     font-size: 12px;
     margin-top: 3px;
-
 }
-
 .develop{
     width: 40px;
     height: 40px;
@@ -301,13 +282,12 @@
     background-image: linear-gradient(to right top, #1671e2,#08e4d2); 
 }
 .designteam{
+    width: 30%;
    background-color: rgb(31, 30, 30);
-  opacity: 1;
-   height: 280px;
+   opacity: 1;
    margin-top: 55px;
    text-align: center;
    color: white;
-   width: 280px;
    position: relative;
    border-left: 0.1px solid rgb(37, 37, 37);
 }
@@ -357,22 +337,26 @@
     left: 65px;
     bottom: 40px;
     font-size: 10px;
+    padding: 10px 15px;
     background-color: #5b5fc7;
-    border-color: #5b5fc7;
-    border-radius: 15px;
+    border-radius: 20px;
     color: white;
-    height: 30px;
-    width: 135px;
     opacity: 1;
+    border: none;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+.designteam button:hover{
+  background-color: white;
+  color: #5b5fc7;
+  opacity: 0.6;
+  
 }
 .right{
     width: 18%;
     background-color: gray;
-    opacity: 0.9;
-    
+    opacity: 0.9;   
 }
-
-
 .h{
     margin-top: 20px;
     color: white;
@@ -381,23 +365,21 @@
 .grid1{
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 10px;
+    margin-top: 25px;
     text-align: center;
-
 }
 .gridarea{
-  width: 210px;
-  height: 124px;
+  padding-bottom: 20px;
   color: white;
   padding-top: 10px;
+  transition:all 0.8s ease-in;
 }
-.gridarea1{
-  width: 210px;
-  height: 124px;
+.gridarea:hover{
   background-image: linear-gradient(150deg,white,gray);
   opacity: 0.9;
   padding-top: 10px;
-  border: 1px solid gray;
+  padding-bottom: 20px;
+  
 }
 .gridarea1 p{
     color: white;
@@ -438,7 +420,7 @@
     margin-top: 5px;
 }
 .footer{
-    height: 40px;
+    height: 7%;
     background-color: gray;
     opacity: 0.9;
     width: 100%;
@@ -446,24 +428,24 @@
     bottom: 0px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
-.you{
-    margin-left: 500px;
-}
-.team{
-    width: 50px;
-    height: 40px;
+.footer img:hover{
     border-right: 0.5px solid rgb(155, 153, 153) ;
     border-left: 0.5px solid rgb(155, 153, 153);
-    background-image: linear-gradient(150deg,white,gray);    
+    background-image: linear-gradient(150deg,white,gray);  
 }
-.footer p{
+.time{
+    position: absolute;
+    right: 85px;
+    bottom:5px;  
     font-size: 10px;
     color: white;
-    margin-left: 350px;
-    margin-top: 15px;
+    display: flex;      
+}
+.time p{
+    padding-top: 10px;
 }
 .pro{
     margin-left: 20px;
-    margin-top: 5px
 }
