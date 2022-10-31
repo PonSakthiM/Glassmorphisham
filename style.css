@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 1400px 800px;
+    background-size: 100% 100vh;
     margin: 0;
     position: relative;
     overflow: hidden;
@@ -142,10 +142,19 @@
     margin-top: 10px;
     margin-right: 20px;
 }
-.head label{
-    font-size: 10px;
-    margin-top: 5px;
+.head input{
+    font-size: 12px;
+    background-color: rgb(31, 30, 30);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
 }
+.head i{
+    font-size: 12px;
+}
+
 .line img{
     position: absolute;
     left: 410px;
@@ -217,13 +226,17 @@
     font-size: 12px;
     margin-top: 3px;
 }
+.grid i{
+    color: white;
+    font-size: 20px;
+}
 .develop{
     width: 40px;
     height: 40px;
     border-radius: 20px;
     background-color: black;
     margin-left: 80px;
-    padding-top: 10px;
+    padding-top: 8px;
     background-image: linear-gradient(to right top, rgb(16, 155, 16), rgb(138, 228, 138));
 }
 .marketing{
@@ -268,7 +281,7 @@
     background-color: black;
     border-radius: 20px;
     margin-left: 80px;
-    padding-top: 10px;
+    padding-top: 8px;
     background-image: linear-gradient(to right top, #1671e2,#08e4d2);
 }
 .product1{
@@ -280,6 +293,10 @@
     margin-top: 30px;
     padding-top: 10px;
     background-image: linear-gradient(to right top, #1671e2,#08e4d2); 
+}
+.designteam i{
+    color: white;
+    font-size: 20px;
 }
 .designteam{
     width: 30%;
@@ -311,27 +328,46 @@
     position: absolute;
     top: 150px;
     left: 70px;
+    border-radius: 50%;
 }
 .e2{
     position: absolute;
     top: 150px;
     left: 90px;
+    border-radius: 50%;
+    background-color: #b3bfc4;
+    color: #29adad;
+    font-size: 10px;
+    font-weight: bold;
+    padding:8px 4px;
+    border: 1px solid #29adad;
+
 }
 .e3{
     position: absolute;
     top: 150px;
     left: 110px;
+    border-radius: 50%;
 }
 .e4{
     position: absolute;
     top: 150px;
     left: 130px;
+    border-radius: 50%;
 }
 .e5{
     position: absolute;
     top: 150px;
     left: 150px;
+    border-radius: 50%;
+    background-color: #5e5c5c;
+    color: #93aab9;
+    font-size: 10px;
+    font-weight: bold;
+    padding:8px 4px;
+    border: 1px solid #93aab9;
 }
+
 .designteam button{
     position: absolute;
     left: 65px;
@@ -365,7 +401,7 @@
 .grid1{
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 25px;
+    margin-top: 35px;
     text-align: center;
 }
 .gridarea{
@@ -378,8 +414,7 @@
   background-image: linear-gradient(150deg,white,gray);
   opacity: 0.9;
   padding-top: 10px;
-  padding-bottom: 20px;
-  
+  padding-bottom: 20px;    
 }
 .gridarea1 p{
     color: white;
@@ -388,6 +423,14 @@
 }
 .gridarea1 h5{
     color: white;
+}
+.jaylin{
+    border-radius: 50%;
+    border: 5px solid #5e5c5c;
+    outline: 1px solid rgb(206, 202, 202);
+}
+.anny{
+    border-radius: 50%;
 }
 .hd{
     width: 40px;
@@ -401,6 +444,7 @@
     font-size: 12px;
     font-weight: bold;      
 }
+
 .cl{
     width: 40px;
     height: 40px;
